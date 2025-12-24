@@ -79,7 +79,7 @@ const App: React.FC = () => {
 
           <div className="max-w-xs text-right hidden lg:block">
             <p className="text-xs leading-relaxed opacity-60 uppercase tracking-widest italic">
-              "Beauty is the purgation of superfluities."
+              "lo vivo aspettando ogni nostro incontro."
             </p>
           </div>
         </footer>
