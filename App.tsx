@@ -65,15 +65,11 @@ const App: React.FC = () => {
             <div className={`p-4 rounded-xl transition-all duration-700 ${morphState === TreeMorphState.TREE_SHAPE ? 'bg-[#D4AF37] text-emerald-950' : 'bg-transparent text-[#D4AF37]'}`}>
               <Trees size={32} />
             </div>
-            <div>
-              <h3 className="text-lg font-bold">Spatial Configuration</h3>
-              <p className="text-xs opacity-60">Status: {morphState === TreeMorphState.TREE_SHAPE ? 'Manifested Order' : 'Primordial Flux'}</p>
-            </div>
             <button 
               onClick={toggleState}
               className="ml-4 px-8 py-3 bg-[#D4AF37] text-emerald-950 font-bold rounded-full hover:bg-[#FFD700] transition-all transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(212,175,55,0.4)]"
             >
-              {morphState === TreeMorphState.SCATTERED ? 'MANIFEST TREE' : 'DISSOLVE SCENE'}
+              {morphState === TreeMorphState.SCATTERED ? 'Manifest' : 'Dissolve'}
             </button>
           </div>
 
